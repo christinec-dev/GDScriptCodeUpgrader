@@ -1,0 +1,235 @@
+[gd_scene load_steps=10 format=3 uid="uid://cw7em6buwd3if"]
+
+[ext_resource type="Script" path="res://addons/updater/highlighter.gd" id="1_bee8i"]
+[ext_resource type="Script" path="res://addons/updater/copy_button.gd" id="2_g15k2"]
+[ext_resource type="Script" path="res://addons/updater/correct_button.gd" id="3_oyi5k"]
+
+[sub_resource type="CodeHighlighter" id="CodeHighlighter_yhtx5"]
+number_color = Color(0.337255, 0.713726, 0.760784, 1)
+symbol_color = Color(0.308831, 0.728022, 0.690234, 1)
+function_color = Color(0.380392, 0.686275, 0.937255, 1)
+member_variable_color = Color(0.3, 0.7, 0.8, 1)
+keyword_colors = {
+"INF": Color(1, 0.294, 0.2, 1),
+"NAN": Color(1, 0.294, 0.2, 1),
+"PI": Color(1, 0.294, 0.2, 1),
+"TAU": Color(1, 0.294, 0.2, 1),
+"as": Color(1, 0.294, 0.2, 1),
+"assert": Color(1, 0.294, 0.2, 1),
+"await": Color(1, 0.294, 0.2, 1),
+"break": Color(1, 0.294, 0.2, 1),
+"breakpoint": Color(1, 0.294, 0.2, 1),
+"class": Color(1, 0.294, 0.2, 1),
+"class_name": Color(1, 0.294, 0.2, 1),
+"const": Color(1, 0.294, 0.2, 1),
+"continue": Color(1, 0.294, 0.2, 1),
+"elif": Color(1, 0.294, 0.2, 1),
+"else": Color(1, 0.294, 0.2, 1),
+"enum": Color(1, 0.294, 0.2, 1),
+"extends": Color(1, 0.294, 0.2, 1),
+"for": Color(1, 0.294, 0.2, 1),
+"func": Color(1, 0.294, 0.2, 1),
+"if": Color(1, 0.294, 0.2, 1),
+"in": Color(1, 0.294, 0.2, 1),
+"is": Color(1, 0.294, 0.2, 1),
+"match": Color(1, 0.294, 0.2, 1),
+"pass": Color(1, 0.294, 0.2, 1),
+"preload": Color(1, 0.294, 0.2, 1),
+"return": Color(1, 0.294, 0.2, 1),
+"self": Color(1, 0.294, 0.2, 1),
+"signal": Color(1, 0.294, 0.2, 1),
+"static": Color(1, 0.294, 0.2, 1),
+"var": Color(1, 0.294, 0.2, 1),
+"void": Color(1, 0.294, 0.2, 1),
+"while": Color(1, 0.294, 0.2, 1),
+"yield": Color(1, 0.294, 0.2, 1)
+}
+member_keyword_colors = {
+"export": Color(0.3, 0.7, 0.8, 1),
+"load": Color(0.3, 0.7, 0.8, 1),
+"onready": Color(0.3, 0.7, 0.8, 1),
+"preload": Color(0.3, 0.7, 0.8, 1),
+"setget": Color(0.3, 0.7, 0.8, 1)
+}
+script = ExtResource("1_bee8i")
+
+[sub_resource type="CodeHighlighter" id="CodeHighlighter_ij7vq"]
+number_color = Color(0.337255, 0.713726, 0.760784, 1)
+symbol_color = Color(0.308831, 0.728022, 0.690234, 1)
+function_color = Color(0.380392, 0.686275, 0.937255, 1)
+member_variable_color = Color(0.3, 0.7, 0.8, 1)
+keyword_colors = {
+"INF": Color(1, 0.294, 0.2, 1),
+"NAN": Color(1, 0.294, 0.2, 1),
+"PI": Color(1, 0.294, 0.2, 1),
+"TAU": Color(1, 0.294, 0.2, 1),
+"as": Color(1, 0.294, 0.2, 1),
+"assert": Color(1, 0.294, 0.2, 1),
+"await": Color(1, 0.294, 0.2, 1),
+"break": Color(1, 0.294, 0.2, 1),
+"breakpoint": Color(1, 0.294, 0.2, 1),
+"class": Color(1, 0.294, 0.2, 1),
+"class_name": Color(1, 0.294, 0.2, 1),
+"const": Color(1, 0.294, 0.2, 1),
+"continue": Color(1, 0.294, 0.2, 1),
+"elif": Color(1, 0.294, 0.2, 1),
+"else": Color(1, 0.294, 0.2, 1),
+"enum": Color(1, 0.294, 0.2, 1),
+"extends": Color(1, 0.294, 0.2, 1),
+"for": Color(1, 0.294, 0.2, 1),
+"func": Color(1, 0.294, 0.2, 1),
+"if": Color(1, 0.294, 0.2, 1),
+"in": Color(1, 0.294, 0.2, 1),
+"is": Color(1, 0.294, 0.2, 1),
+"match": Color(1, 0.294, 0.2, 1),
+"pass": Color(1, 0.294, 0.2, 1),
+"preload": Color(1, 0.294, 0.2, 1),
+"return": Color(1, 0.294, 0.2, 1),
+"self": Color(1, 0.294, 0.2, 1),
+"signal": Color(1, 0.294, 0.2, 1),
+"static": Color(1, 0.294, 0.2, 1),
+"var": Color(1, 0.294, 0.2, 1),
+"void": Color(1, 0.294, 0.2, 1),
+"while": Color(1, 0.294, 0.2, 1),
+"yield": Color(1, 0.294, 0.2, 1)
+}
+member_keyword_colors = {
+"export": Color(0.3, 0.7, 0.8, 1),
+"load": Color(0.3, 0.7, 0.8, 1),
+"onready": Color(0.3, 0.7, 0.8, 1),
+"preload": Color(0.3, 0.7, 0.8, 1),
+"setget": Color(0.3, 0.7, 0.8, 1)
+}
+script = ExtResource("1_bee8i")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_l4qcb"]
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
+expand_margin_right = 2.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rsge2"]
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
+bg_color = Color(0.270222, 0.270222, 0.270222, 1)
+
+[sub_resource type="SystemFont" id="SystemFont_lbgdw"]
+font_weight = 500
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sivs5"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.212542, 0.208669, 0.198172, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.54099, 0.540991, 0.54099, 1)
+border_blend = true
+
+[node name="CodeUpgrader" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Container" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 0
+
+[node name="Input" type="VSplitContainer" parent="Container"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="InputTextEdit" type="CodeEdit" parent="Container/Input"]
+layout_mode = 2
+size_flags_vertical = 3
+placeholder_text = "# Code Input"
+scroll_smooth = true
+scroll_past_end_of_file = true
+caret_blink = true
+syntax_highlighter = SubResource("CodeHighlighter_yhtx5")
+highlight_current_line = true
+draw_control_chars = true
+draw_tabs = true
+draw_spaces = true
+symbol_lookup_on_click = true
+line_folding = true
+gutters_draw_breakpoints_gutter = true
+gutters_draw_bookmarks = true
+gutters_draw_executing_lines = true
+gutters_draw_line_numbers = true
+gutters_zero_pad_line_numbers = true
+gutters_draw_fold_gutter = true
+code_completion_enabled = true
+indent_use_spaces = true
+indent_automatic = true
+auto_brace_completion_enabled = true
+auto_brace_completion_highlight_matching = true
+
+[node name="CodeOutput" type="Control" parent="Container/Input"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="OutputTextEdit" type="CodeEdit" parent="Container/Input/CodeOutput"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 3
+theme_override_colors/background_color = Color(0.141176, 0.156863, 0.2, 1)
+placeholder_text = "# Code Output"
+scroll_smooth = true
+scroll_past_end_of_file = true
+caret_blink = true
+syntax_highlighter = SubResource("CodeHighlighter_ij7vq")
+highlight_all_occurrences = true
+highlight_current_line = true
+draw_control_chars = true
+draw_tabs = true
+draw_spaces = true
+symbol_lookup_on_click = true
+line_folding = true
+gutters_draw_bookmarks = true
+gutters_draw_line_numbers = true
+code_completion_enabled = true
+indent_use_spaces = true
+indent_automatic = true
+auto_brace_completion_enabled = true
+auto_brace_completion_highlight_matching = true
+
+[node name="CopyButton" type="Button" parent="Container/Input/CodeOutput"]
+modulate = Color(0.762404, 0.762404, 0.762404, 1)
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -8.0
+offset_bottom = 8.0
+grow_horizontal = 0
+theme_override_styles/normal = SubResource("StyleBoxFlat_l4qcb")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_rsge2")
+text = "📑"
+flat = true
+script = ExtResource("2_g15k2")
+
+[node name="CorrectionButton" type="Button" parent="Container"]
+layout_mode = 2
+theme_override_fonts/font = SubResource("SystemFont_lbgdw")
+theme_override_styles/normal = SubResource("StyleBoxFlat_sivs5")
+text = "EXECUTE"
+script = ExtResource("3_oyi5k")
