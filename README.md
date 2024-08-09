@@ -5,8 +5,8 @@ Code Upgrader is a tool designed to help upgrade your GDScript code from Godot 3
 Please know that I might not have picked up all the changes, as there are a lot, so if you find ones that I haven’t added, you can let me know and I will implement those fixes into the plugin! 
 
 ## Links
-- Overview Writeup
-- AssetLib Download
+- Wiki
+- AssetLib Download (Awaiting Approval)
 
 ## Usage Instructions 
 - Download the plugin and enable it.
