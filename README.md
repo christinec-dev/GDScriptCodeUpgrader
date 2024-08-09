@@ -1,6 +1,7 @@
 # Code Upgrader Plugin
 Code Upgrader is a tool designed to help upgrade your GDScript code from Godot 3 to Godot 4. This plugin automates the process of updating deprecated methods, properties, and syntax, ensuring your projects are compatible with the latest version of Godot.
 
+## Notice 
 Please know that I might not have picked up all the changes, as there are a lot, so if you find ones that I haven’t added, you can let me know and I will implement those fixes into the plugin! 
 
 ## Links
