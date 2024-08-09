@@ -1,4 +1,6 @@
 {
+	"var velocity": "#",
+	"velocity = move_and_slide()": "move_and_slide",
 	"printer": "print",
 	"File.READ": "FileAccess.READ",
 	"File.WRITE": "FileAccess.WRITE",
