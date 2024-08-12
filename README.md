@@ -13,7 +13,7 @@ Please know that I might not have picked up all the changes, as there are a lot,
 
 ## Links
 - [Wiki](https://github.com/christinec-dev/GDScriptCodeUpgrader/wiki/Tutorial)
-- AssetLib Download (Awaiting Approval)
+- [AssetLib Download](https://godotengine.org/asset-library/asset/3217)
 
 ## Usage Instructions 
 - Download the plugin and enable it.
