@@ -559,4 +559,5 @@
 	"xform": "mat * vec",
 	"xform_inv": "vec * mat",
 	"get_cellv": "get_cell",
+	"get_rect": "get_viewport_rect"
 }
