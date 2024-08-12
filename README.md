@@ -6,6 +6,8 @@ This plugin is a work-in-progress tool.
 
 Please know that I might not have picked up all the changes, as there are a lot, so if you find ones that I haven’t added, you can let me know and I will implement those fixes into the plugin! 
 
+Join my Discord if you want to give feedback on this plugin or to help me update it: https://discord.gg/FnD8355w
+
 ### Next Steps
 - Do more focused testing on all the individual Nodes, especially for the TileMap node, to see where I can add more conversions.
 - Continuously test the updated functions with a variety of code snippets to ensure that all transformations are applied correctly and do not interfere with each other or modify unintended parts of the code.
