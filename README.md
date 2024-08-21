@@ -9,7 +9,7 @@ Please know that I might not have picked up all the changes, as there are a lot,
 Join my Discord if you want to give feedback on this plugin or to help me update it: https://discord.gg/FnD8355w
 
 ### Next Steps
-- Do more focused testing on all the individual Nodes, especially for the TileMap node, to see where I can add more conversions.
+- Do more focused testing on all the individual Nodes, especially for the TileMapLayer node, to see where I can add more conversions.
 - Continuously test the updated functions with a variety of code snippets to ensure that all transformations are applied correctly and do not interfere with each other or modify unintended parts of the code.
 - Optimize the performance, especially if applied to large bodies of code, and optimize or refactor as necessary to ensure efficiency.
 
